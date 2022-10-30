@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+../../build/3DOFs_arm/3DOFs_arm.egg-info/PKG-INFO
+../../build/3DOFs_arm/3DOFs_arm.egg-info/SOURCES.txt
+../../build/3DOFs_arm/3DOFs_arm.egg-info/dependency_links.txt
+../../build/3DOFs_arm/3DOFs_arm.egg-info/entry_points.txt
+../../build/3DOFs_arm/3DOFs_arm.egg-info/requires.txt
+../../build/3DOFs_arm/3DOFs_arm.egg-info/top_level.txt
+../../build/3DOFs_arm/3DOFs_arm.egg-info/zip-safe
+3DOFs_arm/__init__.py
+resource/3DOFs_arm
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

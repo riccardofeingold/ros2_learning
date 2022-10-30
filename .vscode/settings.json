@@ -3,5 +3,10 @@
         "/home/riccardofeingold/magnecko_ethz/ros2_control_demos/install/ros2_control_test_nodes/lib/python3.10/site-packages",
         "/opt/ros/humble/lib/python3.10/site-packages",
         "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/riccardofeingold/magnecko_ethz/ros2_control_demos/install/ros2_control_test_nodes/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
     ]
 }
