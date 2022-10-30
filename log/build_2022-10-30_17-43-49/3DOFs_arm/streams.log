@@ -1,0 +1,23 @@
+[0.423s] Invoking command in '/home/parallels/magnecko/ros2_learning/src/3DOFs_arm': PYTHONPATH=/home/parallels/magnecko/ros2_learning/install/3DOFs_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/3DOFs_arm build --build-base /home/parallels/magnecko/ros2_learning/build/3DOFs_arm/build install --prefix /home/parallels/magnecko/ros2_learning/install/3DOFs_arm --record /home/parallels/magnecko/ros2_learning/build/3DOFs_arm/install.log --single-version-externally-managed
+[0.596s] running egg_info
+[0.597s] writing ../../build/3DOFs_arm/3DOFs_arm.egg-info/PKG-INFO
+[0.597s] writing dependency_links to ../../build/3DOFs_arm/3DOFs_arm.egg-info/dependency_links.txt
+[0.597s] writing entry points to ../../build/3DOFs_arm/3DOFs_arm.egg-info/entry_points.txt
+[0.598s] writing requirements to ../../build/3DOFs_arm/3DOFs_arm.egg-info/requires.txt
+[0.598s] writing top-level names to ../../build/3DOFs_arm/3DOFs_arm.egg-info/top_level.txt
+[0.599s] reading manifest file '../../build/3DOFs_arm/3DOFs_arm.egg-info/SOURCES.txt'
+[0.600s] writing manifest file '../../build/3DOFs_arm/3DOFs_arm.egg-info/SOURCES.txt'
+[0.600s] running build
+[0.600s] running build_py
+[0.600s] running install
+[0.600s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.600s]   warnings.warn(
+[0.600s] running install_lib
+[0.601s] running install_data
+[0.601s] copying package.xml -> /home/parallels/magnecko/ros2_learning/install/3DOFs_arm/share/3DOFs_arm
+[0.601s] running install_egg_info
+[0.602s] removing '/home/parallels/magnecko/ros2_learning/install/3DOFs_arm/lib/python3.10/site-packages/3DOFs_arm-0.0.0-py3.10.egg-info' (and everything under it)
+[0.603s] Copying ../../build/3DOFs_arm/3DOFs_arm.egg-info to /home/parallels/magnecko/ros2_learning/install/3DOFs_arm/lib/python3.10/site-packages/3DOFs_arm-0.0.0-py3.10.egg-info
+[0.603s] running install_scripts
+[0.618s] writing list of installed files to '/home/parallels/magnecko/ros2_learning/build/3DOFs_arm/install.log'
+[0.633s] Invoked command in '/home/parallels/magnecko/ros2_learning/src/3DOFs_arm' returned '0': PYTHONPATH=/home/parallels/magnecko/ros2_learning/install/3DOFs_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/3DOFs_arm build --build-base /home/parallels/magnecko/ros2_learning/build/3DOFs_arm/build install --prefix /home/parallels/magnecko/ros2_learning/install/3DOFs_arm --record /home/parallels/magnecko/ros2_learning/build/3DOFs_arm/install.log --single-version-externally-managed

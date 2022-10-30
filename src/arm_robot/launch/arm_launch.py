@@ -3,6 +3,7 @@ from launch import LaunchDescription
 from launch.substitutions import Command, FindExecutable, PathJoinSubstitution
 from launch_ros.substitutions import FindPackageShare
 from launch_ros.actions import Node
+import xacro
 
 def generate_launch_description():
     # Get URDF via xacro
@@ -33,4 +34,4 @@ def generate_launch_description():
         robot_state_pub_node
     ]
 
-    return nodes
+    return LaunchDescription(nodes)
