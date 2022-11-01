@@ -3,6 +3,9 @@
 /home/parallels/magnecko/ros2_learning/install/arm_robot/share/ament_index/resource_index/packages/arm_robot
 /home/parallels/magnecko/ros2_learning/install/arm_robot/share/arm_robot/package.xml
 /home/parallels/magnecko/ros2_learning/install/arm_robot/share/arm_robot/arm_launch.py
+/home/parallels/magnecko/ros2_learning/install/arm_robot/share/arm_robot/arm_description.urdf.xacro
+/home/parallels/magnecko/ros2_learning/install/arm_robot/share/arm_robot/arm.ros2_control.xacro
+/home/parallels/magnecko/ros2_learning/install/arm_robot/share/arm_robot/arm.urdf.xacro
 /home/parallels/magnecko/ros2_learning/install/arm_robot/lib/python3.10/site-packages/arm_robot-0.0.0-py3.10.egg-info/requires.txt
 /home/parallels/magnecko/ros2_learning/install/arm_robot/lib/python3.10/site-packages/arm_robot-0.0.0-py3.10.egg-info/entry_points.txt
 /home/parallels/magnecko/ros2_learning/install/arm_robot/lib/python3.10/site-packages/arm_robot-0.0.0-py3.10.egg-info/zip-safe

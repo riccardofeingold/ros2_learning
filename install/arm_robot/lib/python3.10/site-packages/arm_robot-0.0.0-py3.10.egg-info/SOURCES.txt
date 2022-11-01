@@ -9,6 +9,9 @@ setup.py
 ../../build/arm_robot/arm_robot.egg-info/top_level.txt
 ../../build/arm_robot/arm_robot.egg-info/zip-safe
 arm_robot/__init__.py
+description/arm.ros2_control.xacro
+description/arm.urdf.xacro
+description/arm_description.urdf.xacro
 launch/arm_launch.py
 resource/arm_robot
 test/test_copyright.py
