@@ -55,14 +55,14 @@
             </collision>
             
             <visual>
-                <origin xyz="0 ${width} ${height2 / 2 -offset}" rpy="0 0 0"/>
+                <origin xyz="0 ${width} ${height2 / 2 - offset}" rpy="0 ${pi} 0"/>
                 <geometry>
                     <box size="${width} ${width} ${height2}"/>    
                 </geometry>
             </visual>
 
             <interial>
-                <origin xyz="0 0 ${height2}"/>
+                <origin xyz="0 0 ${height2 / 2 - offset}"/>
                 <mass value="${mass}" />
                 <inertia ixx="${mass / 12 * (width*width + height2*height2)}" ixy="0.0" ixz="0.0" iyy="{mass / 12 * (width*width + height2*height2)}" iyz="0.0" izz="{mass / 12 * 2*width*width}"/>
             </interial>

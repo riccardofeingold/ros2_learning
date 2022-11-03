@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing arm_robot.egg-info/PKG-INFO
+writing dependency_links to arm_robot.egg-info/dependency_links.txt
+writing entry points to arm_robot.egg-info/entry_points.txt
+writing requirements to arm_robot.egg-info/requires.txt
+writing top-level names to arm_robot.egg-info/top_level.txt
+reading manifest file 'arm_robot.egg-info/SOURCES.txt'
+writing manifest file 'arm_robot.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/riccardofeingold/ros2_learning/install/arm_robot/lib/python3.8/site-packages/site.py
+Creating /home/riccardofeingold/ros2_learning/install/arm_robot/lib/python3.8/site-packages/arm-robot.egg-link (link to .)
+
+Installed /home/riccardofeingold/ros2_learning/build/arm_robot
+running install_data
+copying description/arm_description.urdf.xacro -> /home/riccardofeingold/ros2_learning/install/arm_robot/share/arm_robot

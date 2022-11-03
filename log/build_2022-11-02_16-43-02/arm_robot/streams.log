@@ -1,0 +1,18 @@
+[0.310s] Invoking command in '/home/riccardofeingold/ros2_learning/build/arm_robot': PYTHONPATH=/home/riccardofeingold/ros2_learning/install/arm_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/riccardofeingold/ros2_learning/install/arm_robot --editable --build-directory /home/riccardofeingold/ros2_learning/build/arm_robot/build --no-deps install_data --install-dir /home/riccardofeingold/ros2_learning/install/arm_robot
+[0.427s] running develop
+[0.485s] running egg_info
+[0.485s] writing arm_robot.egg-info/PKG-INFO
+[0.485s] writing dependency_links to arm_robot.egg-info/dependency_links.txt
+[0.485s] writing entry points to arm_robot.egg-info/entry_points.txt
+[0.485s] writing requirements to arm_robot.egg-info/requires.txt
+[0.485s] writing top-level names to arm_robot.egg-info/top_level.txt
+[0.501s] reading manifest file 'arm_robot.egg-info/SOURCES.txt'
+[0.501s] writing manifest file 'arm_robot.egg-info/SOURCES.txt'
+[0.518s] running build_ext
+[0.518s] Creating /home/riccardofeingold/ros2_learning/install/arm_robot/lib/python3.8/site-packages/site.py
+[0.519s] Creating /home/riccardofeingold/ros2_learning/install/arm_robot/lib/python3.8/site-packages/arm-robot.egg-link (link to .)
+[0.520s] 
+[0.520s] Installed /home/riccardofeingold/ros2_learning/build/arm_robot
+[0.520s] running install_data
+[0.520s] copying description/arm_description.urdf.xacro -> /home/riccardofeingold/ros2_learning/install/arm_robot/share/arm_robot
+[0.534s] Invoked command in '/home/riccardofeingold/ros2_learning/build/arm_robot' returned '0': PYTHONPATH=/home/riccardofeingold/ros2_learning/install/arm_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/riccardofeingold/ros2_learning/install/arm_robot --editable --build-directory /home/riccardofeingold/ros2_learning/build/arm_robot/build --no-deps install_data --install-dir /home/riccardofeingold/ros2_learning/install/arm_robot
