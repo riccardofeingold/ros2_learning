@@ -32,7 +32,7 @@ def generate_launch_description():
     robot_state_pub_node = Node(
         package="robot_state_publisher",
         executable="robot_state_publisher",
-        output="screen",
+        output="both",
         parameters=[robot_description],
     )
 

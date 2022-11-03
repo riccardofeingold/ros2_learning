@@ -5,27 +5,29 @@ Copied and modified from ROS1 example -
 https://github.com/ros-simulation/gazebo_ros_demos/blob/kinetic-devel/rrbot_description/urdf/rrbot.xacro
 -->
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="arm_robot">
-  <xacro:arg name="prefix" default=""/>
+  <xacro:arg name="prefix" default=""/> <!-- By changing the default value you can add a prefix to each link and joint-->
 
-  <!-- Import RRBot macro -->
+  <!-- Import arm macro -->
   <xacro:include filename="$(find arm_robot)/arm_description.urdf.xacro" />
 
   <!-- Import Rviz colors -->
   <!-- <xacro:include filename="$(find 3DOFs_arm)/description/arm.materials.xacro" /> -->
 
   <!-- Import RRBot ros2_control description -->
-  <xacro:include filename="$(find arm_robot)/arm.ros2_control.xacro" />
+  <!-- <xacro:include filename="$(find arm_robot)/arm.ros2_control.xacro" /> -->
 
   <!-- Used for fixing robot -->
-  <link name="world"/>
-  <gazebo reference="world">
+  <link name="world">
+  </link>
+
+  <!-- <gazebo reference="world">
     <static>true</static>
-  </gazebo>
+  </gazebo> -->
 
   <xacro:arm parent="world" prefix="$(arg prefix)">
     <origin xyz="0 0 0" rpy="0 0 0" />
   </xacro:arm>
 
-  <xacro:arm_ros2_control name="arm" prefix="$(arg prefix)" />
+  <!-- <xacro:arm_ros2_control name="arm" prefix="$(arg prefix)" /> -->
 
 </robot>

@@ -5,17 +5,17 @@
         <!-- Constants for robot dimensions -->
         <xacro:property name="mass" value="1" /> <!-- arbitrary value for mass -->
         <xacro:property name="width" value="0.1" /> <!-- Square dimensions (widthxwidth) of beams -->
-        <xacro:property name="height1" value="2" /> <!-- Link 1 -->
+        <xacro:property name="height1" value="1" /> <!-- Link 1 -->
         <xacro:property name="height2" value="1" /> <!-- Link 2 -->
         <xacro:property name="offset" value="0.05" /> 
 
-        <joint name="${prefix}base" type="fixed">
-            <xacro:insert_block name="origin" />
-            <parent link="${parent}" />
-            <child link="${prefix}arm1"/>
+        <joint name="${prefix}base_joint" type="fixed">
+            <xacro:insert_block name="origin"/>
+            <parent link="${parent}"/>
+            <child link="${prefix}base_link"/>
         </joint>
 
-        <link name="${prefix}arm1">
+        <link name="${prefix}base_link">
             <collision>
                 <origin xyz="0 0 ${height1 / 2}" rpy="0 0 0"/>
                 <geometry>
@@ -31,41 +31,42 @@
             </visual>
 
             <interial>
-                <origin xyz="0 0 ${height1 / 2}"/>
+                <origin xyz="0 0 ${height1 / 2}" rpy="0 0 0"/>
                 <mass value="${mass}" />
                 <inertia ixx="${mass / 12 * (width*width + height1*height1)}" ixy="0.0" ixz="0.0" iyy="{mass / 12 * (width*width + height1*height1)}" iyz="0.0" izz="{mass / 12 * 2*width*width}"/>
             </interial>
         </link>
 
         <joint name="${prefix}joint1" type="revolute">
-            <parent link="${prefix}arm1"/>
-            <child link="${prefix}arm2"/>
-            <origin xyz="0 ${width} ${height1 / 2 - offset}"/>
+            <parent link="${prefix}base_link"/>
+            <child link="${prefix}arm1_link"/>
+            <origin xyz="0 ${width} ${height1 - offset}" rpy="0 0 0"/>
             <axis xyz="0.0 1.0 0.0"/>
             <limit lower="${-pi}" upper="${pi}" effort="10" velocity="10"/>
             <dynamics damping="0.7"/>
         </joint>
 
-        <link name="${prefix}arm2">
+        <link name="${prefix}arm1_link">
             <collision>
-                <origin xyz="0 ${width} ${height2 / 2 - offset}" rpy="0 0 0"/>
+                <origin xyz="0 0 ${height2 / 2}" rpy="0 0 0"/>
                 <geometry>
                     <box size="${width} ${width} ${height2}"/>  
                 </geometry>
             </collision>
             
             <visual>
-                <origin xyz="0 ${width} ${height2 / 2 - offset}" rpy="0 ${pi} 0"/>
+                <origin xyz="0 0 ${height2 / 2}" rpy="0 0 0"/>
                 <geometry>
                     <box size="${width} ${width} ${height2}"/>    
                 </geometry>
             </visual>
 
             <interial>
-                <origin xyz="0 0 ${height2 / 2 - offset}"/>
+                <origin xyz="0 0 ${height2 / 2}" rpy="0 0 0"/>
                 <mass value="${mass}" />
                 <inertia ixx="${mass / 12 * (width*width + height2*height2)}" ixy="0.0" ixz="0.0" iyy="{mass / 12 * (width*width + height2*height2)}" iyz="0.0" izz="{mass / 12 * 2*width*width}"/>
             </interial>
         </link>
+
     </xacro:macro>
 </robot>

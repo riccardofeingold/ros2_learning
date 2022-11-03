@@ -1,0 +1,24 @@
+[0.435s] Invoking command in '/home/parallels/magnecko/ros2_learning/src/arm_robot': PYTHONPATH=/home/parallels/magnecko/ros2_learning/install/arm_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/arm_robot build --build-base /home/parallels/magnecko/ros2_learning/build/arm_robot/build install --prefix /home/parallels/magnecko/ros2_learning/install/arm_robot --record /home/parallels/magnecko/ros2_learning/build/arm_robot/install.log --single-version-externally-managed
+[0.611s] running egg_info
+[0.611s] writing ../../build/arm_robot/arm_robot.egg-info/PKG-INFO
+[0.612s] writing dependency_links to ../../build/arm_robot/arm_robot.egg-info/dependency_links.txt
+[0.612s] writing entry points to ../../build/arm_robot/arm_robot.egg-info/entry_points.txt
+[0.612s] writing requirements to ../../build/arm_robot/arm_robot.egg-info/requires.txt
+[0.613s] writing top-level names to ../../build/arm_robot/arm_robot.egg-info/top_level.txt
+[0.614s] reading manifest file '../../build/arm_robot/arm_robot.egg-info/SOURCES.txt'
+[0.615s] writing manifest file '../../build/arm_robot/arm_robot.egg-info/SOURCES.txt'
+[0.615s] running build
+[0.615s] running build_py
+[0.615s] running install
+[0.615s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.615s]   warnings.warn(
+[0.615s] running install_lib
+[0.616s] running install_data
+[0.617s] copying description/arm_description.urdf.xacro -> /home/parallels/magnecko/ros2_learning/install/arm_robot/share/arm_robot
+[0.617s] copying description/arm.urdf.xacro -> /home/parallels/magnecko/ros2_learning/install/arm_robot/share/arm_robot
+[0.617s] running install_egg_info
+[0.618s] removing '/home/parallels/magnecko/ros2_learning/install/arm_robot/lib/python3.10/site-packages/arm_robot-0.0.0-py3.10.egg-info' (and everything under it)
+[0.618s] Copying ../../build/arm_robot/arm_robot.egg-info to /home/parallels/magnecko/ros2_learning/install/arm_robot/lib/python3.10/site-packages/arm_robot-0.0.0-py3.10.egg-info
+[0.619s] running install_scripts
+[0.635s] writing list of installed files to '/home/parallels/magnecko/ros2_learning/build/arm_robot/install.log'
+[0.653s] Invoked command in '/home/parallels/magnecko/ros2_learning/src/arm_robot' returned '0': PYTHONPATH=/home/parallels/magnecko/ros2_learning/install/arm_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/arm_robot build --build-base /home/parallels/magnecko/ros2_learning/build/arm_robot/build install --prefix /home/parallels/magnecko/ros2_learning/install/arm_robot --record /home/parallels/magnecko/ros2_learning/build/arm_robot/install.log --single-version-externally-managed

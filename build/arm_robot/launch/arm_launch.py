@@ -1,1 +1,0 @@
-/home/riccardofeingold/ros2_learning/src/arm_robot/launch/arm_launch.py

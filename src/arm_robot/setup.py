@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 from struct import pack
 from setuptools import setup
 import os
