@@ -15,6 +15,7 @@ description/arm.ros2_control.xacro
 description/arm.urdf.xacro
 description/arm_description.urdf.xacro
 description/arm_sensor.urdf.xacro
+description/arm_sensor_gazebo.xacro
 description/inertials.xacro
 description/materials.xacro
 launch/arm_launch.py

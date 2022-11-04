@@ -168,4 +168,6 @@
         </xacro:inertial_box>
     </link>
 
+    <xacro:include filename="arm_sensor_gazebo.xacro"/>
+    
 </robot>

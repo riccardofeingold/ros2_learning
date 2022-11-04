@@ -9,6 +9,7 @@
 /home/riccardofeingold/ros2_learning/install/arm_robot/share/arm_robot/arm_sensor.urdf.xacro
 /home/riccardofeingold/ros2_learning/install/arm_robot/share/arm_robot/arm_description.urdf.xacro
 /home/riccardofeingold/ros2_learning/install/arm_robot/share/arm_robot/inertials.xacro
+/home/riccardofeingold/ros2_learning/install/arm_robot/share/arm_robot/arm_sensor_gazebo.xacro
 /home/riccardofeingold/ros2_learning/install/arm_robot/share/arm_robot/arm.ros2_control.xacro
 /home/riccardofeingold/ros2_learning/install/arm_robot/share/arm_robot/arm_sensor.rviz
 /home/riccardofeingold/ros2_learning/install/arm_robot/share/arm_robot/arm.rviz
