@@ -9,7 +9,11 @@
 /home/riccardofeingold/ros2_learning/install/arm_robot/share/arm_robot/arm_sensor.urdf.xacro
 /home/riccardofeingold/ros2_learning/install/arm_robot/share/arm_robot/arm_description.urdf.xacro
 /home/riccardofeingold/ros2_learning/install/arm_robot/share/arm_robot/inertials.xacro
+/home/riccardofeingold/ros2_learning/install/arm_robot/share/arm_robot/arm_sensor_gazebo.xacro
+/home/riccardofeingold/ros2_learning/install/arm_robot/share/arm_robot/arm_sensor.ros2_control.xacro
 /home/riccardofeingold/ros2_learning/install/arm_robot/share/arm_robot/arm.ros2_control.xacro
+/home/riccardofeingold/ros2_learning/install/arm_robot/share/arm_robot/rgb_camera.xacro
+/home/riccardofeingold/ros2_learning/install/arm_robot/share/arm_robot/slider_controller.yaml
 /home/riccardofeingold/ros2_learning/install/arm_robot/share/arm_robot/arm_sensor.rviz
 /home/riccardofeingold/ros2_learning/install/arm_robot/share/arm_robot/arm.rviz
 /home/riccardofeingold/ros2_learning/install/arm_robot/lib/python3.10/site-packages/arm_robot-0.0.0-py3.10.egg-info/PKG-INFO

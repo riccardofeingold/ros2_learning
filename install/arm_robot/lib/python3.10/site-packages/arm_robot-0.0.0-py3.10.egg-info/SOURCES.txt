@@ -11,12 +11,16 @@ setup.py
 arm_robot/__init__.py
 config/arm.rviz
 config/arm_sensor.rviz
+config/slider_controller.yaml
 description/arm.ros2_control.xacro
 description/arm.urdf.xacro
 description/arm_description.urdf.xacro
+description/arm_sensor.ros2_control.xacro
 description/arm_sensor.urdf.xacro
+description/arm_sensor_gazebo.xacro
 description/inertials.xacro
 description/materials.xacro
+description/sensors/rgb_camera.xacro
 launch/arm_launch.py
 launch/arm_sensor_launch.py
 resource/arm_robot
