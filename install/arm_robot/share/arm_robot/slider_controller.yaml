@@ -1,0 +1,19 @@
+controller_manager:
+  ros_parameters:
+    update_rate: 30
+    use_sim_time: true
+
+    slider_cont:
+      type: slider_controller/ForBackwardMove
+    
+    joint_broad:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+slider_cont:
+  ros_parameters:
+    publish_rate: 30.0
+    base_frame_id: base_link
+
+    joint_names: ['slider_joint']
+
+    use_stamped_vel: false

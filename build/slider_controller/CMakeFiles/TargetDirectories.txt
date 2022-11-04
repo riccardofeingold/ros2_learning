@@ -1,0 +1,9 @@
+/home/riccardofeingold/ros2_learning/build/slider_controller/CMakeFiles/uninstall.dir
+/home/riccardofeingold/ros2_learning/build/slider_controller/CMakeFiles/slider_controller_uninstall.dir
+/home/riccardofeingold/ros2_learning/build/slider_controller/CMakeFiles/test.dir
+/home/riccardofeingold/ros2_learning/build/slider_controller/CMakeFiles/edit_cache.dir
+/home/riccardofeingold/ros2_learning/build/slider_controller/CMakeFiles/rebuild_cache.dir
+/home/riccardofeingold/ros2_learning/build/slider_controller/CMakeFiles/list_install_components.dir
+/home/riccardofeingold/ros2_learning/build/slider_controller/CMakeFiles/install.dir
+/home/riccardofeingold/ros2_learning/build/slider_controller/CMakeFiles/install/local.dir
+/home/riccardofeingold/ros2_learning/build/slider_controller/CMakeFiles/install/strip.dir

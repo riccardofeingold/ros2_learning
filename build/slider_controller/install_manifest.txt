@@ -1,0 +1,15 @@
+/home/riccardofeingold/ros2_learning/install/slider_controller/share/ament_index/resource_index/package_run_dependencies/slider_controller
+/home/riccardofeingold/ros2_learning/install/slider_controller/share/ament_index/resource_index/parent_prefix_path/slider_controller
+/home/riccardofeingold/ros2_learning/install/slider_controller/share/slider_controller/environment/ament_prefix_path.sh
+/home/riccardofeingold/ros2_learning/install/slider_controller/share/slider_controller/environment/ament_prefix_path.dsv
+/home/riccardofeingold/ros2_learning/install/slider_controller/share/slider_controller/environment/path.sh
+/home/riccardofeingold/ros2_learning/install/slider_controller/share/slider_controller/environment/path.dsv
+/home/riccardofeingold/ros2_learning/install/slider_controller/share/slider_controller/local_setup.bash
+/home/riccardofeingold/ros2_learning/install/slider_controller/share/slider_controller/local_setup.sh
+/home/riccardofeingold/ros2_learning/install/slider_controller/share/slider_controller/local_setup.zsh
+/home/riccardofeingold/ros2_learning/install/slider_controller/share/slider_controller/local_setup.dsv
+/home/riccardofeingold/ros2_learning/install/slider_controller/share/slider_controller/package.dsv
+/home/riccardofeingold/ros2_learning/install/slider_controller/share/ament_index/resource_index/packages/slider_controller
+/home/riccardofeingold/ros2_learning/install/slider_controller/share/slider_controller/cmake/slider_controllerConfig.cmake
+/home/riccardofeingold/ros2_learning/install/slider_controller/share/slider_controller/cmake/slider_controllerConfig-version.cmake
+/home/riccardofeingold/ros2_learning/install/slider_controller/share/slider_controller/package.xml

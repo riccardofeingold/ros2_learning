@@ -7,6 +7,7 @@
 
     <xacro:include filename="inertials.xacro" />
     <xacro:include filename="materials.xacro" />
+    <xacro:include filename="arm_sensor.ros2_control.xacro"/>
     
     <!-- This first link called "world" is empty -->
     <link name="world"></link>
@@ -168,6 +169,7 @@
         </xacro:inertial_box>
     </link>
 
+    <xacro:arm_sensor_ros2_control name="ArmSliderSystem" />
     <xacro:include filename="arm_sensor_gazebo.xacro"/>
     
 </robot>
