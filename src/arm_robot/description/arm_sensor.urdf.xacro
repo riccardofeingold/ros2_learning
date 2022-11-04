@@ -5,8 +5,9 @@
     <!-- As we move through the file, new things to note will be pointed out. -->
     <!-- It's not meant an example of GOOD design, but an example of some of the various features of URDF/xacro. -->
 
-    <xacro:include filename="inertials.urdf.xacro" />
-
+    <xacro:include filename="inertials.xacro" />
+    <xacro:include filename="materials.xacro" />
+    
     <!-- This first link called "world" is empty -->
     <link name="world"></link>
 

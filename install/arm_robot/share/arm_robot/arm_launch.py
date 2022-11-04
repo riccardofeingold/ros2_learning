@@ -36,6 +36,13 @@ def generate_launch_description():
         parameters=[robot_description],
     )
 
+    robot_joint_state_publisher = Node(
+        package="joint_state_publisher",
+        executable="joint_state_publisher",
+        name="joint_state_publisher",
+        output="log",
+    )
+
     rviz2_node = Node(
         package="rviz2",
         executable="rviz2",
@@ -46,7 +53,8 @@ def generate_launch_description():
 
     nodes = [
         robot_state_pub_node,
-        rviz2_node
+        rviz2_node,
+        robot_joint_state_publisher
     ]
 
     return LaunchDescription(nodes)

@@ -37,7 +37,7 @@
             </interial>
         </link>
 
-        <!-- <joint name="${prefix}joint1" type="revolute">
+        <joint name="${prefix}joint1" type="revolute">
             <parent link="${prefix}base_link"/>
             <child link="${prefix}arm1_link"/>
             <origin xyz="0 ${width} ${height1 - offset}" rpy="0 0 0"/>
@@ -66,7 +66,7 @@
                 <mass value="${mass}" />
                 <inertia ixx="${mass / 12 * (width*width + height2*height2)}" ixy="0.0" ixz="0.0" iyy="{mass / 12 * (width*width + height2*height2)}" iyz="0.0" izz="{mass / 12 * 2*width*width}"/>
             </interial>
-        </link> -->
+        </link>
 
     </xacro:macro>
 </robot>

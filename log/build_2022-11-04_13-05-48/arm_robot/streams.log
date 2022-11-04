@@ -1,0 +1,22 @@
+[0.397s] Invoking command in '/home/riccardofeingold/ros2_learning/src/arm_robot': PYTHONPATH=/home/riccardofeingold/ros2_learning/install/arm_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/arm_robot build --build-base /home/riccardofeingold/ros2_learning/build/arm_robot/build install --prefix /home/riccardofeingold/ros2_learning/install/arm_robot --record /home/riccardofeingold/ros2_learning/build/arm_robot/install.log --single-version-externally-managed
+[0.558s] running egg_info
+[0.558s] writing ../../build/arm_robot/arm_robot.egg-info/PKG-INFO
+[0.558s] writing dependency_links to ../../build/arm_robot/arm_robot.egg-info/dependency_links.txt
+[0.559s] writing entry points to ../../build/arm_robot/arm_robot.egg-info/entry_points.txt
+[0.559s] writing requirements to ../../build/arm_robot/arm_robot.egg-info/requires.txt
+[0.559s] writing top-level names to ../../build/arm_robot/arm_robot.egg-info/top_level.txt
+[0.560s] reading manifest file '../../build/arm_robot/arm_robot.egg-info/SOURCES.txt'
+[0.560s] writing manifest file '../../build/arm_robot/arm_robot.egg-info/SOURCES.txt'
+[0.561s] running build
+[0.561s] running build_py
+[0.561s] running install
+[0.561s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.561s]   warnings.warn(
+[0.561s] running install_lib
+[0.562s] running install_data
+[0.562s] running install_egg_info
+[0.563s] removing '/home/riccardofeingold/ros2_learning/install/arm_robot/lib/python3.10/site-packages/arm_robot-0.0.0-py3.10.egg-info' (and everything under it)
+[0.564s] Copying ../../build/arm_robot/arm_robot.egg-info to /home/riccardofeingold/ros2_learning/install/arm_robot/lib/python3.10/site-packages/arm_robot-0.0.0-py3.10.egg-info
+[0.564s] running install_scripts
+[0.578s] writing list of installed files to '/home/riccardofeingold/ros2_learning/build/arm_robot/install.log'
+[0.592s] Invoked command in '/home/riccardofeingold/ros2_learning/src/arm_robot' returned '0': PYTHONPATH=/home/riccardofeingold/ros2_learning/install/arm_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/arm_robot build --build-base /home/riccardofeingold/ros2_learning/build/arm_robot/build install --prefix /home/riccardofeingold/ros2_learning/install/arm_robot --record /home/riccardofeingold/ros2_learning/build/arm_robot/install.log --single-version-externally-managed
